@@ -46,4 +46,10 @@ Telescope is available by default in : `localhost/telescope`. Telescope is confi
 
 By default, the Users table is configured to use Uuid as primary key.
 
-
+## Publish it to your git repository
+```
+git init
+git add *
+git remote add origin https://github.com/yourName/yourProject
+git push -u origin master
+```
