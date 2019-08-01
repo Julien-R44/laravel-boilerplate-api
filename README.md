@@ -39,10 +39,10 @@ php artisan jwt:secret
 # Migrate the database
 php artisan migrate:fresh --seed
 ```
-You can also PgAdmin by typing `localhost:5050` in your browser and login with following default credentials ( defined in laradock/.env ) :
+You can also access PgAdmin by typing `localhost:5050` in your browser and login with following default credentials ( defined in laradock/.env ) :
 - pgadmin4@pgadmin.org / admin
 
-Telescope is available by default in : `localhost/telescope`
+Telescope is available by default in : `localhost/telescope`. Telescope is configured to be available only in local environnement.
 
 By default, the Users table is configured to use Uuid as primary key.
 
