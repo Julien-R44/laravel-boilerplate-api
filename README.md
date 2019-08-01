@@ -11,6 +11,9 @@ Built on top of :
 By default the boilerplate is using PostgreSQL as RDBMS and Nginx, but you can change it for anything you want. Check the laradock documentation for launching the needed containers. This setup documentation assumes you will using PostgreSQL and Nginx.
 
 ```
+composer create-project julien-r44/laravel-boilerplate-api myProjectName -s dev
+cd myProjectName
+
 # Set the .env file of Laradock. You can customize it for matching your needs.
 cp laradock/env-example laradock/.env
 
